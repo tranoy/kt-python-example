@@ -14,5 +14,5 @@ while True:
     if M == N:
         break
     count += 1
-
+ 
 print(count)
