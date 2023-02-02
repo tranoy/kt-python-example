@@ -6,6 +6,8 @@ for i in range(size):
     if data[i] == '0':
         #result = result + int(data[i])
         continue
+    elif data[i] =='1':
+        result = result + int(data[i])
     else:
         result = result * int(data[i])
 
